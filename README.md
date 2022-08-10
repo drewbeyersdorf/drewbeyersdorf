@@ -1,18 +1,16 @@
-### Hi there 👋
-
 <!--
 **drewbeyersdorf/drewbeyersdorf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-# Hey 👋🏼
+Hey 👋🏼
 
-## About Me
+About Me
 
-<p>I love the process of developing a project from an idea and into a full fledged application. I also have experience working as a carpenter/ set builder and enjoy having many outlets to express my creativity and utilize my problem-solving skills. For fun, my hobbies are playing musical instruments, sports, and drawing.</p>
+<p>I love the process of solving problems and working with teams. I also have experience working as a beekeeper/small business owner and enjoy having many outlets to express my creativity and utilize my problem-solving skills. For fun, my hobbies are basketball, motorcycles, and surfing.</p>
 <p>Hometown:    San Francisco, CA</p>
-<p>Colleges Attended:    NYU and CCNY (Major: Economics)</p>
+<p>Colleges Attended:    St Pete College and Western Governors University (Major: Information Technology)</p>
 <p><a href="http://www.oweniwamasa.com/">View my Portfolio Site</a></p>
 
-## Skills
+Skills
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=333333" /></a>
 <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white&" /></a>

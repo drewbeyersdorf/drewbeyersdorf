@@ -5,8 +5,8 @@ About Me
 
 <p>I love the process of solving problems and working with teams. I also have experience working as a beekeeper/small business owner and enjoy having many outlets to express my creativity and utilize my problem-solving skills. For fun, my hobbies are basketball, motorcycles, and surfing.</p>
 <p>Hometown:    San Francisco, CA</p>
-<p>Colleges Attended:    St Pete College and Western Governors University (Major: Information Technology)</p>
-<p><a href="http://www.oweniwamasa.com/">View my Portfolio Site</a></p>
+<p>Colleges Attended: St Pete College (Associates) and Western Governors University (Major: Information Technology)</p>
+<p><a href="http://www.drewsb.com/">View my Portfolio Site</a></p>
 
 Skills
 

@@ -1,16 +1,19 @@
 # Drew Beyersdorf
 
-PM and systems builder at [Methodology](https://gomethodology.com), a premium meal delivery company doing ~$27M TTM with 140+ people.
+I build AI systems that run without me.
 
-I build internal tools that replace spreadsheets and gut feelings with structured data. The stack: FastAPI, Next.js, Supabase Postgres, DuckDB, Railway. The pattern: external APIs feed ETL pipelines, pipelines feed one database, one database feeds one API, one API feeds the dashboard. No service talks to something it shouldn't.
+21 autonomous agents. 4 machines. 24/7. Research, debugging, analysis, writing — all running continuous loops while I sleep. The agents get better prompts, better prompts produce better output, better output feeds better training data, better training data produces better models. The loop compounds.
 
-**What I've built so far:**
-- **Guardian** -- delivery tracking + storm risk alerts across ShipStation, OnFleet, NOAA, and TrackingMore
-- **Labor Planning** -- budget tracking, scheduling, scorecards against a 12% labor-to-revenue target
-- **Brain** -- RAG-powered knowledge search across 274K embedded chunks of company data (meetings, Slack, menus, docs)
-- **Projects** -- Kanban task management with WIP limits, status workflows, drag-and-drop reordering
-- **Ops Dashboard** -- labor forecasting and operational metrics
+By day I'm operations at [Methodology](https://gomethodology.com) — a $27M premium meal delivery company with 140+ people. I built 9 internal tools from zero: delivery tracking, labor planning, RAG knowledge search, production monitoring, fleet ops. FastAPI, Next.js, Supabase, DuckDB, Railway. One pattern: external APIs feed pipelines, pipelines feed one database, one API serves everything.
 
-Before this I kept bees, ran a small business, and studied IT at Western Governors University. I learn by building things that break, then figuring out why.
+**Open source:**
 
-Daytona Beach, FL.
+- **[prompt-poetry](https://github.com/drewbeyersdorf/prompt-poetry)** — Composable prompt engineering for LLMs. 8 techniques, pipe operator, zero dependencies. The thesis: the best prompt engineers aren't engineers — they're poets.
+
+**What I care about:**
+
+- Systems that improve themselves. Agents that build training data that trains better agents.
+- Composable abstractions. If you can't pipe it, test it, and version it, it's not engineering.
+- Building in production. Theory without deployment is fiction.
+
+Before this I kept bees, ran a small business, and studied IT at WGU. I learn by building things that break, then figuring out why.

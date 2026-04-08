@@ -7,15 +7,14 @@ the loop compounds.
 
 <pre>
 <b>operator@systems ~ $</b> ls -la projects/
-total 8
-drwx------  hotbunk/                  # cooperative compute orchestrator
-drwx------  codeREM/                  # memory consolidation. rem sleep for agents.
-drwx------  contextbudget/            # context window usage, visualized
-drwx------  prompt-poetry/            # composable prompts. pipe like unix.
-drwx------  dogfood/                  # use what you build, fix what breaks.
-drwx------  claude-buddy-watcher/     # capture companion output from terminal sessions
-drwx------  ai-model-changelog/       # track model releases across providers
-drwx------  ai-remarkable-templates/  # ai-generated templates for e-ink tablets
+drwx------  hotbunk/               # cooperative compute
+drwx------  codeREM/               # rem sleep for agents
+drwx------  contextbudget/         # context window, visualized
+drwx------  prompt-poetry/         # composable prompts
+drwx------  dogfood/               # use what you build
+drwx------  claude-buddy-watcher/  # companion capture
+drwx------  ai-model-changelog/    # model release tracker
+drwx------  ai-remarkable-templates/ # e-ink templates
 </pre>
 
 <pre>
@@ -23,7 +22,7 @@ drwx------  ai-remarkable-templates/  # ai-generated templates for e-ink tablets
 </pre>
 
 <p>
-<img src="https://github-readme-stats.vercel.app/api?username=drewbeyersdorf&show_icons=false&hide_border=true&bg_color=00000000&text_color=8b949e&title_color=c9d1d9&include_all_commits=true&rank_icon=github&hide=contribs" alt="stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=drewbeyersdorf&show_icons=false&hide_border=true&bg_color=00000000&text_color=8b949e&title_color=c9d1d9&include_all_commits=true&rank_icon=github" alt="stats" />
 </p>
 
 <pre>

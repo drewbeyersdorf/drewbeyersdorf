@@ -2,18 +2,26 @@
 
 I build AI systems that run without me.
 
-21 autonomous agents. 4 machines. 24/7. Research, debugging, analysis, writing — all running continuous loops while I sleep. The agents get better prompts, better prompts produce better output, better output feeds better training data, better training data produces better models. The loop compounds.
+4 machines, 24/7 autonomous agents, self-improving loops. Research, monitoring, analysis -- all running continuous cycles while I sleep. Better prompts produce better output, better output feeds better training data, better training data trains better models. The loop compounds.
 
-By day I'm operations at [Methodology](https://gomethodology.com) — a $27M premium meal delivery company with 140+ people. I built 9 internal tools from zero: delivery tracking, labor planning, RAG knowledge search, production monitoring, fleet ops. FastAPI, Next.js, Supabase, DuckDB, Railway. One pattern: external APIs feed pipelines, pipelines feed one database, one API serves everything.
+## Tools
 
-**Open source:**
+**Claude Code ecosystem:**
 
-- **[prompt-poetry](https://github.com/drewbeyersdorf/prompt-poetry)** — Composable prompt engineering for LLMs. 8 techniques, pipe operator, zero dependencies. The thesis: the best prompt engineers aren't engineers — they're poets.
+- **[hotbunk](https://github.com/drewbeyersdorf/hotbunk)** - Cooperative compute orchestrator. Pool idle Max accounts into shared capacity across your team.
+- **[codeREM](https://github.com/drewbeyersdorf/codeREM)** - Memory consolidation for Claude Code. Three-phase analysis and nightly automation -- like REM sleep for your agent.
+- **[contextbudget](https://github.com/drewbeyersdorf/contextbudget)** - Visualize and manage context window usage in real time.
+- **[dogfood](https://github.com/drewbeyersdorf/dogfood)** - Systematic dogfooding skill and CLI. Use what you build, fix what breaks.
+- **[claude-buddy-watcher](https://github.com/drewbeyersdorf/claude-buddy-watcher)** - Capture companion output from Claude Code terminal sessions.
 
-**What I care about:**
+**AI foundations:**
 
-- Systems that improve themselves. Agents that build training data that trains better agents.
-- Composable abstractions. If you can't pipe it, test it, and version it, it's not engineering.
-- Building in production. Theory without deployment is fiction.
+- **[prompt-poetry](https://github.com/drewbeyersdorf/prompt-poetry)** - Composable prompt engineering for LLMs. Pipe transforms together like Unix commands.
+- **[ai-model-changelog](https://github.com/drewbeyersdorf/ai-model-changelog)** - Track model releases and breaking changes across providers.
+- **[ai-remarkable-templates](https://github.com/drewbeyersdorf/ai-remarkable-templates)** - AI-generated templates for e-ink tablets.
 
-Before this I kept bees, ran a small business, and studied IT at WGU. I learn by building things that break, then figuring out why.
+## What I care about
+
+- Systems that improve themselves
+- Composable abstractions -- if you can't pipe it, test it, and version it, it's not engineering
+- Building in production, not theory

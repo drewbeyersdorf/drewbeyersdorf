@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="220" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="28" fill="#0070dd" font-weight="bold">Orca Pod Coordination</tspan>
+    <tspan x="20" y="48" fill="#c7c7c7">Binds when picked up</tspan>
+    <tspan x="20" y="68" fill="#c7c7c7" font-weight="bold">Off Hand</tspan>
+    <tspan x="20" y="92" fill="#ffffff">+40 nodes to distributed inference</tspan>
+    <tspan x="20" y="116" fill="#1eff00">Equip: Distributed compute across heterogeneous</tspan>
+    <tspan x="20" y="134" fill="#1eff00">hardware. Idle GPU cycles are wasted potential.</tspan>
+    <tspan x="20" y="158" fill="#1eff00">Equip: The pod hunts together or not at all.</tspan>
+    <tspan x="20" y="186" fill="#ffd100">"Orcas don't chase. They coordinate."</tspan>
+    <tspan x="20" y="210" fill="#9d9d9d">Requires Level 60</tspan>
+  </text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="280" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="28" fill="#ff8000" font-weight="bold">The Autonomous Fleet</tspan>
+    <tspan x="20" y="48" fill="#c7c7c7">Binds when picked up</tspan>
+    <tspan x="20" y="68" fill="#c7c7c7">Unique</tspan>
+    <tspan x="20" y="88" fill="#c7c7c7" font-weight="bold">Relic</tspan>
+    <tspan x="20" y="112" fill="#ffffff">+4 machines running continuous cycles</tspan>
+    <tspan x="20" y="132" fill="#ffffff">+24 hours uptime (does not decay)</tspan>
+    <tspan x="20" y="156" fill="#1eff00">Equip: The loop compounds. Better prompts</tspan>
+    <tspan x="20" y="174" fill="#1eff00">produce better output. Better output feeds</tspan>
+    <tspan x="20" y="192" fill="#1eff00">better data. Better data trains better models.</tspan>
+    <tspan x="20" y="216" fill="#1eff00">Equip: Agents do not sleep. Research, monitoring,</tspan>
+    <tspan x="20" y="234" fill="#1eff00">analysis -- all running while you are offline.</tspan>
+    <tspan x="20" y="264" fill="#ffd100">"I ain't scared of you." -- Bernie Mac</tspan>
+  </text>
+</svg>

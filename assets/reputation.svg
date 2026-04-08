@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="180" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="28" fill="#ffd100" font-weight="bold">─── Reputation ───────────────────</tspan>
+  </text>
+  <!-- The Fleet - Exalted -->
+  <text x="20" y="58" font-family="monospace" font-size="13" fill="#1eff00">The Fleet</text>
+  <rect x="180" y="46" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="46" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="58" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+  <!-- The Loop - Exalted -->
+  <text x="20" y="82" font-family="monospace" font-size="13" fill="#1eff00">The Loop</text>
+  <rect x="180" y="70" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="70" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="82" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+  <!-- The Pod - Revered -->
+  <text x="20" y="106" font-family="monospace" font-size="13" fill="#1eff00">The Pod</text>
+  <rect x="180" y="94" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="94" width="140" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="106" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
+  <!-- SoMa - Exalted -->
+  <text x="20" y="130" font-family="monospace" font-size="13" fill="#1eff00">SoMa</text>
+  <rect x="180" y="118" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="118" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="130" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+  <!-- Redacted - Honored -->
+  <text x="20" y="154" font-family="monospace" font-size="13" fill="#9d9d9d">██████████</text>
+  <rect x="180" y="142" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="142" width="120" height="14" rx="2" fill="#9d9d9d"/>
+  <text x="390" y="154" font-family="monospace" font-size="13" fill="#9d9d9d">Honored</text>
+</svg>

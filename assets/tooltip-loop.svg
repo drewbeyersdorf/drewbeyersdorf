@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="200" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="28" fill="#a335ee" font-weight="bold">Compound Loop Engine</tspan>
+    <tspan x="20" y="48" fill="#c7c7c7">Binds when picked up</tspan>
+    <tspan x="20" y="68" fill="#c7c7c7" font-weight="bold">Trinket</tspan>
+    <tspan x="20" y="92" fill="#1eff00">Equip: Each cycle feeds the next. Self-improving</tspan>
+    <tspan x="20" y="110" fill="#1eff00">system that generates its own training data.</tspan>
+    <tspan x="20" y="138" fill="#ffd100">Use: Invoke compound loop. All machines begin</tspan>
+    <tspan x="20" y="156" fill="#ffd100">simultaneous research cycles. (No cooldown)</tspan>
+    <tspan x="20" y="186" fill="#9d9d9d">Requires Level 60</tspan>
+  </text>
+</svg>

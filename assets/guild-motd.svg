@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="240">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="240" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="28" fill="#ffd100" font-weight="bold">─── /played ──────────────────────</tspan>
+    <tspan x="20" y="52" fill="#c7c7c7">Total time played: </tspan><tspan fill="#ffffff">4,341 contributions</tspan>
+    <tspan x="20" y="72" fill="#c7c7c7">Time at this level: </tspan><tspan fill="#ffffff">233 private commits</tspan>
+    <tspan x="20" y="92" fill="#c7c7c7">Gear score: </tspan><tspan fill="#ff8000" font-weight="bold">A+</tspan>
+    <tspan x="20" y="118" fill="#ffd100" font-weight="bold">─── Guild MOTD ───────────────────</tspan>
+    <tspan x="20" y="142" fill="#ffd100">san francisco taught me that the future</tspan>
+    <tspan x="20" y="160" fill="#ffd100">is built by people who look crazy until</tspan>
+    <tspan x="20" y="178" fill="#ffd100">they don't.</tspan>
+    <tspan x="20" y="202" fill="#ffd100">the gap between "built it" and "shipped it"</tspan>
+    <tspan x="20" y="220" fill="#ffd100">is where most people live their entire careers.</tspan>
+  </text>
+</svg>

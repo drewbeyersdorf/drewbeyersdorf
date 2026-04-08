@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6d3b"/>
+      <stop offset="50%" style="stop-color:#c9a44a"/>
+      <stop offset="100%" style="stop-color:#8a6d3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="340" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <text font-family="monospace" font-size="14">
+    <tspan x="20" y="30" fill="#ffd100" font-weight="bold">Drew Beyersdorf</tspan>
+    <tspan x="20" y="52" fill="#c7c7c7">Level 60 Operator</tspan>
+    <tspan x="280" y="52" fill="#c7c7c7">&lt;Compound Loop&gt;</tspan>
+    <tspan x="20" y="72" fill="#9d9d9d">6th &amp; Mission, SoMa</tspan>
+    <tspan x="20" y="104" fill="#ffd100">─── Attributes ──────────</tspan>
+    <tspan x="20" y="126" fill="#c7c7c7">Strength</tspan><tspan x="200" y="126" fill="#1eff00" font-weight="bold">74</tspan>
+    <tspan x="20" y="146" fill="#c7c7c7">Agility</tspan><tspan x="200" y="146" fill="#1eff00" font-weight="bold">91</tspan>
+    <tspan x="20" y="166" fill="#c7c7c7">Stamina</tspan><tspan x="200" y="166" fill="#1eff00" font-weight="bold">94</tspan>
+    <tspan x="20" y="186" fill="#c7c7c7">Intellect</tspan><tspan x="200" y="186" fill="#1eff00" font-weight="bold">89</tspan>
+    <tspan x="20" y="206" fill="#c7c7c7">Spirit</tspan><tspan x="200" y="206" fill="#1eff00" font-weight="bold">82</tspan>
+    <tspan x="20" y="238" fill="#ffd100">─── Melee ───────────────</tspan>
+    <tspan x="20" y="258" fill="#c7c7c7">Damage</tspan><tspan x="200" y="258" fill="#ffffff">4341 - 4341</tspan>
+    <tspan x="20" y="278" fill="#c7c7c7">Speed</tspan><tspan x="200" y="278" fill="#ffffff">24/7</tspan>
+    <tspan x="20" y="298" fill="#c7c7c7">DPS</tspan><tspan x="200" y="298" fill="#ffffff">∞ (autonomous)</tspan>
+    <tspan x="20" y="328" fill="#9d9d9d">Armor: 233 private commits this month</tspan>
+  </text>
+</svg>

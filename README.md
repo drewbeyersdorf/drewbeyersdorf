@@ -1,11 +1,3 @@
-<pre>
-┌──────────────────────────────────────────────────┐
-│  SYSTEMS RESEARCH BULLETIN                       │
-│  Presidio Station, San Francisco                 │
-│  Clearance: OPEN/UNCLASS                         │
-│  Updated: dynamically                            │
-└──────────────────────────────────────────────────┘
-</pre>
 
 ```
 ACTIVE INVESTIGATIONS

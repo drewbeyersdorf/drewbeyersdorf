@@ -1,8 +1,8 @@
 ```
 ╔══════════════════════════════════════════════════════════╗
 ║  DREW BEYERSDORF            Level 60 Operator           ║
-║  <Compound Loop>            Presidio Server             ║
-║  Spec: Autonomous Systems   Race: Human (SF)            ║
+║  <Compound Loop>            6th & Mission               ║
+║  Spec: Autonomous Systems   Race: Human (SoMa)          ║
 ╚══════════════════════════════════════════════════════════╝
 
 STATS

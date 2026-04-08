@@ -1,27 +1,44 @@
-# Drew Beyersdorf
+<pre>
+<b>operator@systems ~ $</b> whoami
+drew beyersdorf
+4 machines. autonomous agents. self-improving loops.
+the loop compounds.
+</pre>
 
-I build AI systems that run without me.
+<pre>
+<b>operator@systems ~ $</b> ls projects/
+<a href="https://github.com/drewbeyersdorf/hotbunk">hotbunk</a>/            # pool idle compute across your team
+<a href="https://github.com/drewbeyersdorf/codeREM">codeREM</a>/            # memory consolidation. rem sleep for agents.
+<a href="https://github.com/drewbeyersdorf/contextbudget">contextbudget</a>/      # context window usage, visualized
+<a href="https://github.com/drewbeyersdorf/prompt-poetry">prompt-poetry</a>/      # composable prompts. pipe like unix.
+<a href="https://github.com/drewbeyersdorf/dogfood">dogfood</a>/            # use what you build, fix what breaks.
+<a href="https://github.com/drewbeyersdorf/claude-buddy-watcher">claude-buddy-watcher</a>/ # capture companion output from terminal sessions
+<a href="https://github.com/drewbeyersdorf/ai-model-changelog">ai-model-changelog</a>/  # track model releases across providers
+<a href="https://github.com/drewbeyersdorf/ai-remarkable-templates">ai-remarkable-templates</a>/ # ai-generated templates for e-ink tablets
+</pre>
 
-4 machines, 24/7 autonomous agents, self-improving loops. Research, monitoring, analysis -- all running continuous cycles while I sleep. Better prompts produce better output, better output feeds better training data, better training data trains better models. The loop compounds.
+<pre>
+<b>operator@systems ~ $</b> git log --oneline -5
+</pre>
 
-## Tools
+<p>
+<img src="https://github-readme-stats.vercel.app/api?username=drewbeyersdorf&show_icons=false&hide_border=true&bg_color=00000000&text_color=8b949e&title_color=c9d1d9&include_all_commits=true&rank_icon=github" alt="git log" />
+</p>
 
-**Claude Code ecosystem:**
+<pre>
+<b>operator@systems ~ $</b> neofetch
+</pre>
 
-- **[hotbunk](https://github.com/drewbeyersdorf/hotbunk)** - Cooperative compute orchestrator. Pool idle Max accounts into shared capacity across your team.
-- **[codeREM](https://github.com/drewbeyersdorf/codeREM)** - Memory consolidation for Claude Code. Three-phase analysis and nightly automation -- like REM sleep for your agent.
-- **[contextbudget](https://github.com/drewbeyersdorf/contextbudget)** - Visualize and manage context window usage in real time.
-- **[dogfood](https://github.com/drewbeyersdorf/dogfood)** - Systematic dogfooding skill and CLI. Use what you build, fix what breaks.
-- **[claude-buddy-watcher](https://github.com/drewbeyersdorf/claude-buddy-watcher)** - Capture companion output from Claude Code terminal sessions.
+<p>
+<img src="https://streak-stats.demolab.com?user=drewbeyersdorf&theme=transparent&hide_border=true" alt="streak" />
+</p>
+<p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=drewbeyersdorf&layout=compact&hide_border=true&bg_color=00000000&text_color=8b949e&title_color=c9d1d9" alt="languages" />
+</p>
 
-**AI foundations:**
-
-- **[prompt-poetry](https://github.com/drewbeyersdorf/prompt-poetry)** - Composable prompt engineering for LLMs. Pipe transforms together like Unix commands.
-- **[ai-model-changelog](https://github.com/drewbeyersdorf/ai-model-changelog)** - Track model releases and breaking changes across providers.
-- **[ai-remarkable-templates](https://github.com/drewbeyersdorf/ai-remarkable-templates)** - AI-generated templates for e-ink tablets.
-
-## What I care about
-
-- Systems that improve themselves
-- Composable abstractions -- if you can't pipe it, test it, and version it, it's not engineering
-- Building in production, not theory
+<pre>
+<b>operator@systems ~ $</b> cat /etc/motd
+systems that improve themselves.
+composable abstractions -- if you can't pipe it, test it, and version it, it's not engineering.
+building in production, not theory.
+</pre>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="460">
   <defs>
     <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#8a6d3b"/>
@@ -6,33 +6,104 @@
       <stop offset="100%" style="stop-color:#8a6d3b"/>
     </linearGradient>
   </defs>
-  <rect width="520" height="180" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
+  <rect width="520" height="460" rx="4" fill="#1a1a2e" stroke="url(#border)" stroke-width="2"/>
   <text font-family="monospace" font-size="14">
     <tspan x="20" y="28" fill="#ffd100" font-weight="bold">─── Reputation ───────────────────</tspan>
   </text>
-  <!-- The Fleet - Exalted -->
-  <text x="20" y="58" font-family="monospace" font-size="13" fill="#1eff00">The Fleet</text>
-  <rect x="180" y="46" width="200" height="14" rx="2" fill="#333"/>
-  <rect x="180" y="46" width="200" height="14" rx="2" fill="#1eff00"/>
-  <text x="390" y="58" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
-  <!-- The Loop - Exalted -->
-  <text x="20" y="82" font-family="monospace" font-size="13" fill="#1eff00">The Loop</text>
-  <rect x="180" y="70" width="200" height="14" rx="2" fill="#333"/>
-  <rect x="180" y="70" width="200" height="14" rx="2" fill="#1eff00"/>
-  <text x="390" y="82" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
-  <!-- The Pod - Revered -->
-  <text x="20" y="106" font-family="monospace" font-size="13" fill="#1eff00">The Pod</text>
-  <rect x="180" y="94" width="200" height="14" rx="2" fill="#333"/>
-  <rect x="180" y="94" width="140" height="14" rx="2" fill="#1eff00"/>
-  <text x="390" y="106" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
-  <!-- SoMa - Exalted -->
-  <text x="20" y="130" font-family="monospace" font-size="13" fill="#1eff00">SoMa</text>
-  <rect x="180" y="118" width="200" height="14" rx="2" fill="#333"/>
-  <rect x="180" y="118" width="200" height="14" rx="2" fill="#1eff00"/>
-  <text x="390" y="130" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
-  <!-- Redacted - Honored -->
-  <text x="20" y="154" font-family="monospace" font-size="13" fill="#9d9d9d">██████████</text>
-  <rect x="180" y="142" width="200" height="14" rx="2" fill="#333"/>
-  <rect x="180" y="142" width="120" height="14" rx="2" fill="#9d9d9d"/>
-  <text x="390" y="154" font-family="monospace" font-size="13" fill="#9d9d9d">Honored</text>
+
+  <!-- MODELS section header -->
+  <text x="20" y="54" font-family="monospace" font-size="11" fill="#9d9d9d">MODELS</text>
+
+  <!-- Claude -->
+  <text x="20" y="76" font-family="monospace" font-size="13" fill="#ff8000">Claude</text>
+  <rect x="180" y="64" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="64" width="200" height="14" rx="2" fill="#ff8000"/>
+  <text x="390" y="76" font-family="monospace" font-size="13" fill="#ff8000">Exalted</text>
+
+  <!-- Gemini -->
+  <text x="20" y="98" font-family="monospace" font-size="13" fill="#1eff00">Gemini</text>
+  <rect x="180" y="86" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="86" width="180" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="98" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
+
+  <!-- Codex -->
+  <text x="20" y="120" font-family="monospace" font-size="13" fill="#1eff00">Codex</text>
+  <rect x="180" y="108" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="108" width="140" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="120" font-family="monospace" font-size="13" fill="#c7c7c7">Honored</text>
+
+  <!-- Ollama -->
+  <text x="20" y="142" font-family="monospace" font-size="13" fill="#1eff00">Ollama</text>
+  <rect x="180" y="130" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="130" width="160" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="142" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
+
+  <!-- LANGUAGES section header -->
+  <text x="20" y="174" font-family="monospace" font-size="11" fill="#9d9d9d">LANGUAGES</text>
+
+  <!-- Python -->
+  <text x="20" y="196" font-family="monospace" font-size="13" fill="#1eff00">Python</text>
+  <rect x="180" y="184" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="184" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="196" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- TypeScript -->
+  <text x="20" y="218" font-family="monospace" font-size="13" fill="#1eff00">TypeScript</text>
+  <rect x="180" y="206" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="206" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="218" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- Bash -->
+  <text x="20" y="240" font-family="monospace" font-size="13" fill="#1eff00">Bash</text>
+  <rect x="180" y="228" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="228" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="240" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- SQL -->
+  <text x="20" y="262" font-family="monospace" font-size="13" fill="#1eff00">SQL</text>
+  <rect x="180" y="250" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="250" width="180" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="262" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
+
+  <!-- FACTIONS section header -->
+  <text x="20" y="294" font-family="monospace" font-size="11" fill="#9d9d9d">FACTIONS</text>
+
+  <!-- SoMa -->
+  <text x="20" y="316" font-family="monospace" font-size="13" fill="#1eff00">SoMa</text>
+  <rect x="180" y="304" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="304" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="316" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- Florida -->
+  <text x="20" y="338" font-family="monospace" font-size="13" fill="#1eff00">Florida</text>
+  <rect x="180" y="326" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="326" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="338" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- The Fleet -->
+  <text x="20" y="360" font-family="monospace" font-size="13" fill="#1eff00">The Fleet</text>
+  <rect x="180" y="348" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="348" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="360" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- The Loop -->
+  <text x="20" y="382" font-family="monospace" font-size="13" fill="#1eff00">The Loop</text>
+  <rect x="180" y="370" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="370" width="200" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="382" font-family="monospace" font-size="13" fill="#1eff00">Exalted</text>
+
+  <!-- The Pod -->
+  <text x="20" y="404" font-family="monospace" font-size="13" fill="#1eff00">The Pod</text>
+  <rect x="180" y="392" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="392" width="180" height="14" rx="2" fill="#1eff00"/>
+  <text x="390" y="404" font-family="monospace" font-size="13" fill="#c7c7c7">Revered</text>
+
+  <!-- Redacted -->
+  <text x="20" y="426" font-family="monospace" font-size="13" fill="#9d9d9d">██████████</text>
+  <rect x="180" y="414" width="200" height="14" rx="2" fill="#333"/>
+  <rect x="180" y="414" width="120" height="14" rx="2" fill="#9d9d9d"/>
+  <text x="390" y="426" font-family="monospace" font-size="13" fill="#9d9d9d">Honored</text>
+
+  <!-- /played line -->
+  <text x="20" y="452" font-family="monospace" font-size="11" fill="#9d9d9d">/played: 4,341 contributions | 233 private this month | Gear score: A+</text>
 </svg>

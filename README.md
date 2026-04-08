@@ -1,4 +1,8 @@
 <p align="center">
+<img src="assets/guild-motd.svg" alt="guild motd" />
+</p>
+
+<p align="center">
 <img src="assets/character-sheet.svg" alt="character sheet" />
 </p>
 
@@ -15,15 +19,7 @@
 </p>
 
 <p align="center">
-<img src="assets/tooltip-redacted.svg" alt="[REDACTED]" />
-</p>
-
-<p align="center">
 <img src="assets/reputation.svg" alt="reputation" />
-</p>
-
-<p align="center">
-<img src="assets/guild-motd.svg" alt="guild motd" />
 </p>
 
 <p align="center">

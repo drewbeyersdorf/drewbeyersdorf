@@ -1,101 +1,54 @@
 # Drew Beyersdorf
 
-<p align="center"><sub><em>
-I'm building the world's greatest food manufacturing operation — agentic, robotic, and self-improving.<br />
-Most factories run on clipboards, tribal knowledge, and heroics. Mine runs on agents: systems that ingest everything,<br />
-learn from every shift, correct themselves, and compound. Software agents run the floor today. Robotic cells plug into the same nervous system tomorrow.<br />
-The kitchen is the harness. The floor is the environment. Every service is a rollout, and the policy gets better every week.
-</em></sub></p>
+I'm an operator at [Methodology](https://www.gomethodology.com), a food manufacturing company in San Francisco. I didn't come up through engineering — I came up through the work. Kitchens, floors, delivery routes, labor plans, closes. I learned software and AI architecture because the systems I needed didn't exist, and waiting for someone else to build them wasn't working. So I built them myself.
+
+Everything below is real and running. Most of it is private because it runs an actual company — real menus, real labor, real deliveries. I'm happy to talk about any of it.
 
 **[drewbeyersdorf.com →](https://drewbeyersdorf.com)**
 
 ---
 
-## Now
+## The day job, systematized
 
-**Operations & Systems @ [Methodology](https://www.gomethodology.com)**: turning a food manufacturing company into an autonomous operation. Not dashboards that watch the work — agents that do the work, close the gaps, and write the audit log as they go.
+Food manufacturing runs on clipboards, tribal knowledge, and heroics. I know because I did it. Piece by piece, I've been replacing the parts I lived:
 
-**The agentic operations layer**: a five-layer autonomous architecture running the business loop — ingest → train → infer → evaluate → correct → loop forever. Every week the system eats the last week's operations and comes back sharper.
+- **Weekly floor OS** — the operating rhythm for a production week: nine lanes, five physical closes, two labor ledgers. What used to live in people's heads now lives in a system that stages the week and reconciles what actually happened.
+- **Internal ops platform** — FastAPI + Next.js + Dagster over Supabase. Letters review, RAG over company knowledge, labor planning, deliveries. One platform instead of a dozen spreadsheets.
+- **Data engineering** — ETL pipelines and DuckDB transforms so the numbers the floor runs on are the same numbers the business runs on.
+- **Delivery operations** — built tooling to audit a full week of delivery instructions across 860 stops. That used to be nobody's job because it was impossible to do by hand.
+- **Medically Tailored Meals** — research and execution toward Medicare Advantage MTM. Food is medicine; manufacturing it well at scale is an operations problem, and it's one worth solving.
 
-**The floor control plane**: a weekly OS for the production floor. Nine lanes, five physical closes, two labor ledgers. The floor stages, the system reconciles, nothing ships on vibes.
+## The self-learning layer
 
-**The internal ops platform**: FastAPI + Next.js + Dagster over Supabase Postgres. Letters reviewer, Brain RAG over company knowledge, labor planning, guardian agents, delivery orchestration — one platform, every department.
+The bigger piece: an AI operations layer that ingests company knowledge, trains on it, dispatches agents, checks their work against ground truth, and corrects itself. Five layers — ingestion, training, inference, evaluation, and a constitution enforced by infrastructure instead of prompts. Rules that outlive the builder.
 
-**The fleet command bus**: machines poll an outbox, execute whitelisted commands, commit results to an inbox. Zero inbound ports. Git history is the audit log.
+It runs on a small fleet I put together myself:
 
-**Medically Tailored Meals**: research and execution toward Medicare Advantage MTM — because food is medicine, and manufacturing it at scale is an operations problem worth solving.
-
----
-
-## The Machine
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>methodology-ai</b><br />
-      <sub>Self-learning AI operations layer · ingest → train → infer → evaluate → correct</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=agentic%20ops%20%7C%20self-improvement&labelColor=0ea5e9&color=111827" alt="focus agentic ops self-improvement" />
-    </td>
-    <td width="50%" valign="top">
-      <b>weekly-os</b><br />
-      <sub>Floor control plane · nine lanes · five physical closes · two labor ledgers</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=floor%20ops%20%7C%20gap%20close&labelColor=22c55e&color=111827" alt="focus floor ops gap close" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>fleet-command</b><br />
-      <sub>Command bus for the machine fleet · zero inbound ports · git as audit log</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=fleet%20%7C%20zero-trust&labelColor=ef4444&color=111827" alt="focus fleet zero-trust" />
-    </td>
-    <td width="50%" valign="top">
-      <b>ops platform</b><br />
-      <sub>FastAPI + Next.js + Dagster + Supabase · RAG · labor planning · deliveries</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=internal%20platform%20%7C%20rag&labelColor=a855f7&color=111827" alt="focus internal platform rag" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>strix</b><br />
-      <sub>Digital chief of staff · SQLite spine + events log + memory + skills</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=personal%20agent%20%7C%20memory&labelColor=f59e0b&color=111827" alt="focus personal agent memory" />
-    </td>
-    <td width="50%" valign="top">
-      <b>dogfood</b><br />
-      <sub>Use what you build. Fix what breaks. Repeat. · CLI + skill for systematic dogfooding</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=dogfooding%20%7C%20quality&labelColor=fb923c&color=111827" alt="focus dogfooding quality" />
-    </td>
-  </tr>
-</table>
-
-<sub>Most of these systems are private — they run a real company. Ask me about them.</sub>
-
----
-
-## Architecture
-
-| Principle | Practice |
+| Machine | Job |
 |---|---|
-| **Agents run the floor** | Software agents own operational loops today; robotic cells inherit the same control plane tomorrow |
-| **Self-improvement is the moat** | Every loop ends in evaluation and correction — the system compounds, headcount doesn't have to |
-| **Zero inbound ports** | Fleet machines poll outboxes and commit results; git history is the audit log |
-| **Evidence-bound orchestration** | Multi-agent work is gated on evidence, not confidence — agent karma separated from operator dharma |
-| **Dogfood everything** | Use what you build, fix what breaks, repeat — quality is a loop, not a launch |
-| **Food is medicine** | Medically Tailored Meals at manufacturing scale is the mission, not a marketing line |
+| **charlie** | GPU workhorse — RTX PRO 6000 96GB, Threadripper 9960X |
+| **nerve** | Always-on orchestrator — M4 Mini, 10W, runs 24/7 |
+| **muscle** | Storage + fallback — RTX 5090, 16TB |
+| **omarchy** | My laptop, where I drive it all |
 
----
+The fleet is managed through a command bus with zero inbound ports: machines poll an outbox, run only whitelisted commands, and commit results back to an inbox. Git history is the audit log. Nothing runs that wasn't pre-approved.
 
-## Where This Is Going
+## How I work
 
-Food manufacturing is one of the last great industries still run by hand. The playbook: prove agentic operations in a real kitchen → harden the control plane → extend it from software agents to robotic cells → build the factory that runs itself and feeds people well. That's the architecture I'm building, one loop at a time.
+- **Domain first.** I build for problems I've personally had. The spec is the scar tissue.
+- **Self-taught, on purpose.** Engineering, ML, agent architecture — learned by building, at night, against real deadlines.
+- **Use what you build.** I dogfood everything. If I won't run my week on it, it isn't done.
+- **Auditable or it didn't happen.** If a system acts, there's a record. No magic, no black boxes.
+- **Small fleet, real work.** You don't need a data center. You need the right loops running all the time.
+
+## Where this goes
+
+Software agents coordinate the operation today. The same control plane — the command bus, the evaluation loops, the constitution — is what robotic cells on the floor will answer to tomorrow. That's the long game: the best-run food manufacturing operation in the world, built by the person who worked the floor, not someone who visited it once.
 
 ---
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=drewbeyersdorf&theme=transparent&hide_border=true" alt="GitHub streak stats for drewbeyersdorf" height="165" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=drewbeyersdorf&show_icons=false&hide_border=true&bg_color=00000000&text_color=8b949e&title_color=c9d1d9&include_all_commits=true&rank_icon=github" alt="GitHub stats for drewbeyersdorf" height="165" />
 </p>
 
 ---

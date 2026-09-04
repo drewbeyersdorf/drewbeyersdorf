@@ -1,4 +1,6 @@
-# Drew Beyersdorf
+<p align="center">
+  <img src="assets/factory-header.svg" alt="Drew Beyersdorf — food manufacturing, operations, self-taught engineering, SF" width="100%" />
+</p>
 
 I'm an operator at [Methodology](https://www.gomethodology.com), a food manufacturing company in San Francisco. I didn't come up through engineering — I came up through the work. Kitchens, floors, delivery routes, labor plans, closes. I learned software and AI architecture because the systems I needed didn't exist, and waiting for someone else to build them wasn't working. So I built them myself.
 
@@ -18,20 +20,19 @@ Food manufacturing runs on clipboards, tribal knowledge, and heroics. I know bec
 - **Delivery operations** — built tooling to audit a full week of delivery instructions across 860 stops. That used to be nobody's job because it was impossible to do by hand.
 - **Medically Tailored Meals** — research and execution toward Medicare Advantage MTM. Food is medicine; manufacturing it well at scale is an operations problem, and it's one worth solving.
 
-## The self-learning layer
+## The self-learning line
 
-The bigger piece: an AI operations layer that ingests company knowledge, trains on it, dispatches agents, checks their work against ground truth, and corrects itself. Five layers — ingestion, training, inference, evaluation, and a constitution enforced by infrastructure instead of prompts. Rules that outlive the builder.
+The bigger piece: an AI operations layer that ingests company knowledge, trains on it, dispatches agents, checks their work against ground truth, and corrects itself. It runs like the line it replaced — so that's how I drew it:
+
+<p align="center">
+  <img src="assets/factory-loop.svg" alt="Five-layer self-learning architecture drawn as a production line: ingest, train, infer, evaluate, correct — with corrections looping back into training, on a constitution foundation" width="100%" />
+</p>
 
 It runs on a small fleet I put together myself:
 
-| Machine | Job |
-|---|---|
-| **charlie** | GPU workhorse — RTX PRO 6000 96GB, Threadripper 9960X |
-| **nerve** | Always-on orchestrator — M4 Mini, 10W, runs 24/7 |
-| **muscle** | Storage + fallback — RTX 5090, 16TB |
-| **omarchy** | My laptop, where I drive it all |
-
-The fleet is managed through a command bus with zero inbound ports: machines poll an outbox, run only whitelisted commands, and commit results back to an inbox. Git history is the audit log. Nothing runs that wasn't pre-approved.
+<p align="center">
+  <img src="assets/fleet-board.svg" alt="Machine fleet status board: charlie, nerve, muscle, omarchy" width="100%" />
+</p>
 
 ## How I work
 

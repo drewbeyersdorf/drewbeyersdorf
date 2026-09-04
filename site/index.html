@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drew Beyersdorf — Operator, Food Manufacturing, Self-Taught Engineering</title>
+<meta name="description" content="Drew Beyersdorf. Operator at Methodology, a food manufacturing company in San Francisco. Self-taught engineer building agentic operations and the road to robotics.">
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --panel2: #1c2128; --line: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --dim: #6e7681;
+    --amber: #d29922; --green: #3fb950;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; padding: 16px;
+  }
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  /* status bar */
+  .statusbar {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 11px; letter-spacing: 2px; color: var(--green);
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 8px 12px; margin-bottom: 32px; background: var(--panel);
+    flex-wrap: wrap;
+  }
+  .statusbar .right { margin-left: auto; color: var(--dim); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: blink 1.6s infinite; flex: none; }
+  @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+
+  h1 { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 28px; letter-spacing: 4px; margin-bottom: 6px; }
+  .tagline { color: var(--muted); font-size: 13px; letter-spacing: 2px; margin-bottom: 20px; }
+  .operator-no { color: var(--dim); font-size: 11px; letter-spacing: 2px; margin-bottom: 20px; }
+
+  .conveyor {
+    height: 2px; margin: 24px 0;
+    background-image: repeating-linear-gradient(90deg, var(--amber) 0 10px, transparent 10px 18px);
+    background-size: 36px 2px; background-repeat: repeat-x; background-position: center;
+    animation: belt 1s linear infinite;
+  }
+  @keyframes belt { to { background-position-x: 36px; } }
+
+  p.intro { color: #c9d1d9; margin-bottom: 14px; }
+  a { color: var(--amber); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  h2 {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 13px; letter-spacing: 3px; color: var(--muted);
+    margin: 40px 0 16px; text-transform: uppercase;
+  }
+
+  .row { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: none; }
+  .row .num { font-family: ui-monospace, monospace; color: var(--amber); font-size: 13px; flex: none; padding-top: 2px; }
+  .row b { color: var(--text); }
+  .row div { color: var(--muted); font-size: 15px; }
+
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  svg.line-art { width: 100%; height: auto; display: block; }
+
+  .fleet { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (min-width: 560px) { .fleet { grid-template-columns: repeat(4, 1fr); } }
+  .machine { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  .machine .head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .machine .name { font-family: ui-monospace, monospace; font-weight: 700; font-size: 14px; }
+  .machine .st { font-family: ui-monospace, monospace; font-size: 9px; letter-spacing: 2px; color: var(--green); margin-left: auto; }
+  .machine .st.amber { color: var(--amber); }
+  .machine .role { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+  .machine .spec { color: var(--dim); font-family: ui-monospace, monospace; font-size: 11px; }
+  .fleet-note { text-align: center; color: var(--dim); font-size: 11px; letter-spacing: 1px; margin-top: 14px; font-family: ui-monospace, monospace; }
+
+  .principles { list-style: none; }
+  .principles li { padding: 12px 0 12px 18px; border-left: 2px solid var(--amber); margin-bottom: 10px; color: var(--muted); font-size: 15px; background: linear-gradient(90deg, rgba(210,153,34,.06), transparent); }
+  .principles b { color: var(--text); }
+
+  .terminal {
+    background: #010409; border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px; font-family: ui-monospace, monospace; font-size: 13px; overflow-x: auto;
+  }
+  .terminal .p { color: var(--green); }
+  .terminal .c { color: var(--text); }
+  .terminal .o { color: var(--muted); }
+
+  footer { margin-top: 48px; text-align: center; color: var(--dim); font-size: 13px; }
+  footer .links { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; margin-bottom: 14px; font-family: ui-monospace, monospace; }
+  footer .fine { font-size: 11px; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="statusbar mono">
+    <span class="dot"></span> LIVE
+    <span class="right">SERVED BY A CLOUDFLARE WORKER · SF</span>
+  </div>
+
+  <div class="operator-no mono">OPERATOR NO. 001</div>
+  <h1>DREW BEYERSDORF</h1>
+  <div class="tagline mono">FOOD MANUFACTURING · OPERATIONS · SELF-TAUGHT ENGINEERING</div>
+
+  <p class="intro">I'm an operator at <a href="https://www.gomethodology.com">Methodology</a>, a food manufacturing company in San Francisco. I didn't come up through engineering — I came up through the work. Kitchens, floors, delivery routes, labor plans, closes. I learned software and AI architecture because the systems I needed didn't exist, and waiting for someone else to build them wasn't working. So I built them myself.</p>
+
+  <div class="conveyor"></div>
+
+  <h2>The day job, systematized</h2>
+  <div class="row"><span class="num">01</span><div><b>Weekly floor OS.</b> The operating rhythm for a production week: nine lanes, five physical closes, two labor ledgers. What used to live in people's heads now lives in a system.</div></div>
+  <div class="row"><span class="num">02</span><div><b>Internal ops platform.</b> FastAPI + Next.js + Dagster over Supabase. Letters review, RAG over company knowledge, labor planning, deliveries. One platform instead of a dozen spreadsheets.</div></div>
+  <div class="row"><span class="num">03</span><div><b>Data engineering.</b> ETL pipelines and DuckDB transforms, so the numbers the floor runs on are the same numbers the business runs on.</div></div>
+  <div class="row"><span class="num">04</span><div><b>Delivery operations.</b> Tooling to audit a full week of delivery instructions across 860 stops — a job that used to be impossible to do by hand.</div></div>
+  <div class="row"><span class="num">05</span><div><b>Medically Tailored Meals.</b> Research and execution toward Medicare Advantage MTM. Food is medicine; manufacturing it well at scale is an operations problem worth solving.</div></div>
+
+  <h2>The self-learning line</h2>
+  <p class="intro">An AI operations layer that ingests company knowledge, trains on it, dispatches agents, checks their work against ground truth, and corrects itself. It runs like the line it replaced — so that's how I drew it:</p>
+  <div class="panel">
+    <svg class="line-art" viewBox="0 0 800 295" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five-layer self-learning architecture drawn as a production line">
+      <line x1="26" y1="110" x2="774" y2="110" stroke="#d29922" stroke-width="2" stroke-dasharray="10 8">
+        <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1s" repeatCount="indefinite"/>
+      </line>
+      <path d="M710 142 V192 H248 V142" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="8 6">
+        <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1s" repeatCount="indefinite"/>
+      </path>
+      <text x="479" y="216" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#3fb950" letter-spacing="1.5">corrections loop back into training — the line teaches itself</text>
+      <rect x="-6" y="-5" width="12" height="10" rx="1.5" fill="#d29922"><animateMotion dur="7s" repeatCount="indefinite" path="M26 105 H774"/></rect>
+      <rect x="-6" y="-5" width="12" height="10" rx="1.5" fill="#d29922"><animateMotion dur="7s" begin="-2.3s" repeatCount="indefinite" path="M26 105 H774"/></rect>
+      <rect x="-6" y="-5" width="12" height="10" rx="1.5" fill="#d29922"><animateMotion dur="7s" begin="-4.6s" repeatCount="indefinite" path="M26 105 H774"/></rect>
+      <rect x="-6" y="-5" width="12" height="10" rx="1.5" fill="#3fb950"><animateMotion dur="7s" repeatCount="indefinite" path="M710 147 V192 H248 V147"/></rect>
+      <g font-family="ui-monospace,Menlo,monospace" text-anchor="middle">
+        <rect x="30" y="80" width="128" height="60" rx="8" fill="#1c2128" stroke="#30363d"/>
+        <text x="94" y="106" font-size="13" font-weight="700" fill="#e6edf3" letter-spacing="2">INGEST</text>
+        <text x="94" y="126" font-size="9" fill="#8b949e">everything becomes data</text>
+        <rect x="184" y="80" width="128" height="60" rx="8" fill="#1c2128" stroke="#30363d"/>
+        <text x="248" y="106" font-size="13" font-weight="700" fill="#e6edf3" letter-spacing="2">TRAIN</text>
+        <text x="248" y="126" font-size="9" fill="#8b949e">weekly auto-cycle</text>
+        <rect x="338" y="80" width="128" height="60" rx="8" fill="#1c2128" stroke="#30363d"/>
+        <text x="402" y="106" font-size="13" font-weight="700" fill="#e6edf3" letter-spacing="2">INFER</text>
+        <text x="402" y="126" font-size="9" fill="#8b949e">agents dispatched</text>
+        <rect x="492" y="80" width="128" height="60" rx="8" fill="#1c2128" stroke="#30363d"/>
+        <text x="556" y="106" font-size="13" font-weight="700" fill="#e6edf3" letter-spacing="2">EVALUATE</text>
+        <text x="556" y="126" font-size="9" fill="#8b949e">vs ground truth</text>
+        <rect x="646" y="80" width="128" height="60" rx="8" fill="#1c2128" stroke="#30363d"/>
+        <text x="710" y="106" font-size="13" font-weight="700" fill="#e6edf3" letter-spacing="2">CORRECT</text>
+        <text x="710" y="126" font-size="9" fill="#8b949e">fix, feed back</text>
+      </g>
+      <rect x="30" y="246" width="744" height="34" rx="6" fill="#161b22" stroke="#d29922" stroke-dasharray="4 4"/>
+      <text x="402" y="268" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#d29922" letter-spacing="1">CONSTITUTION — rules enforced by infrastructure, not prompts</text>
+    </svg>
+  </div>
+
+  <h2>The fleet</h2>
+  <div class="fleet">
+    <div class="machine">
+      <div class="head"><span class="dot"></span><span class="name">charlie</span><span class="st">ONLINE</span></div>
+      <div class="role">gpu workhorse</div>
+      <div class="spec">RTX PRO 6000 96GB<br>Threadripper · 128GB</div>
+    </div>
+    <div class="machine">
+      <div class="head"><span class="dot"></span><span class="name">nerve</span><span class="st">ONLINE</span></div>
+      <div class="role">orchestrator</div>
+      <div class="spec">M4 Mini · 10W<br>runs 24/7</div>
+    </div>
+    <div class="machine">
+      <div class="head"><span class="dot"></span><span class="name">muscle</span><span class="st">ONLINE</span></div>
+      <div class="role">storage + fallback</div>
+      <div class="spec">RTX 5090 · 16TB</div>
+    </div>
+    <div class="machine">
+      <div class="head"><span class="dot" style="background:var(--amber)"></span><span class="name">omarchy</span><span class="st amber">DRIVING</span></div>
+      <div class="role">my hands</div>
+      <div class="spec">laptop · Claude Code<br>where I drive it all</div>
+    </div>
+  </div>
+  <div class="fleet-note">zero inbound ports · whitelisted commands only · git history is the audit log</div>
+
+  <h2>How I work</h2>
+  <ul class="principles">
+    <li><b>Domain first.</b> I build for problems I've personally had. The spec is the scar tissue.</li>
+    <li><b>Self-taught, on purpose.</b> Engineering, ML, agent architecture — learned by building, at night, against real deadlines.</li>
+    <li><b>Use what you build.</b> I dogfood everything. If I won't run my week on it, it isn't done.</li>
+    <li><b>Auditable or it didn't happen.</b> If a system acts, there's a record. No magic, no black boxes.</li>
+    <li><b>Small fleet, real work.</b> You don't need a data center. You need the right loops running all the time.</li>
+  </ul>
+
+  <h2>Where this goes</h2>
+  <p class="intro">Software agents coordinate the operation today. The same control plane — the command bus, the evaluation loops, the constitution — is what robotic cells on the floor will answer to tomorrow. That's the long game: the best-run food manufacturing operation in the world, built by the person who worked the floor, not someone who visited it once.</p>
+
+  <div class="terminal">
+    <span class="p">drew@omarchy</span> <span class="o">~ $</span> <span class="c">fleet status</span><br>
+    <span class="o">charlie .... ONLINE · nerve .... ONLINE · muscle ... ONLINE</span><br>
+    <span class="o">site ...... served from the edge · loop .... running weekly</span>
+  </div>
+
+  <footer>
+    <div class="links">
+      <a href="https://github.com/drewbeyersdorf">GitHub</a>
+      <a href="https://x.com/drewbeyersdorf">X</a>
+      <a href="https://linkedin.com/in/drewbeyersdorf">LinkedIn</a>
+    </div>
+    <div class="fine mono">ONE HTML FILE · ONE WORKER · NO FRAMEWORK · © DREW BEYERSDORF</div>
+  </footer>
+
+</div>
+</body>
+</html>

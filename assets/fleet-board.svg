@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="185" viewBox="0 0 800 185">
+  <rect x="1" y="1" width="798" height="183" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="20" y="27" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12" fill="#8b949e" letter-spacing="3">THE FLEET — BUILT AND RACKED MYSELF</text>
+
+  <g font-family="ui-monospace,'SF Mono',Menlo,monospace">
+    <!-- charlie -->
+    <rect x="20" y="40" width="184" height="118" rx="8" fill="#161b22" stroke="#30363d"/>
+    <circle cx="37" cy="60" r="5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="188" y="64" text-anchor="end" font-size="9" fill="#3fb950" letter-spacing="2">ONLINE</text>
+    <text x="50" y="65" font-size="14" font-weight="700" fill="#e6edf3">charlie</text>
+    <text x="36" y="92" font-size="10.5" fill="#8b949e">gpu workhorse</text>
+    <text x="36" y="112" font-size="10" fill="#6e7681">RTX PRO 6000 96GB</text>
+    <text x="36" y="130" font-size="10" fill="#6e7681">Threadripper · 128GB</text>
+
+    <!-- nerve -->
+    <rect x="212" y="40" width="184" height="118" rx="8" fill="#161b22" stroke="#30363d"/>
+    <circle cx="229" cy="60" r="5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="380" y="64" text-anchor="end" font-size="9" fill="#3fb950" letter-spacing="2">ONLINE</text>
+    <text x="242" y="65" font-size="14" font-weight="700" fill="#e6edf3">nerve</text>
+    <text x="228" y="92" font-size="10.5" fill="#8b949e">orchestrator</text>
+    <text x="228" y="112" font-size="10" fill="#6e7681">M4 Mini · 10W</text>
+    <text x="228" y="130" font-size="10" fill="#6e7681">runs 24/7</text>
+
+    <!-- muscle -->
+    <rect x="404" y="40" width="184" height="118" rx="8" fill="#161b22" stroke="#30363d"/>
+    <circle cx="421" cy="60" r="5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="572" y="64" text-anchor="end" font-size="9" fill="#3fb950" letter-spacing="2">ONLINE</text>
+    <text x="434" y="65" font-size="14" font-weight="700" fill="#e6edf3">muscle</text>
+    <text x="420" y="92" font-size="10.5" fill="#8b949e">storage + fallback</text>
+    <text x="420" y="112" font-size="10" fill="#6e7681">RTX 5090 · 16TB</text>
+
+    <!-- omarchy -->
+    <rect x="596" y="40" width="184" height="118" rx="8" fill="#161b22" stroke="#30363d"/>
+    <circle cx="613" cy="60" r="5" fill="#d29922">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="764" y="64" text-anchor="end" font-size="9" fill="#d29922" letter-spacing="2">DRIVING</text>
+    <text x="626" y="65" font-size="14" font-weight="700" fill="#e6edf3">omarchy</text>
+    <text x="612" y="92" font-size="10.5" fill="#8b949e">my hands</text>
+    <text x="612" y="112" font-size="10" fill="#6e7681">laptop · Claude Code</text>
+    <text x="612" y="130" font-size="10" fill="#6e7681">where I drive it all</text>
+  </g>
+
+  <text x="400" y="176" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="10.5" fill="#8b949e" letter-spacing="1">zero inbound ports · whitelisted commands only · git history is the audit log</text>
+</svg>
